@@ -1,0 +1,22 @@
+//prototype(Neos.Neos:Page) {
+//  head.stylesheets.gallery = Neos.Fusion:Tag {
+//    tagName = 'link'
+//    attributes {
+//      href = Neos.Fusion:ResourceUri {
+//        path = 'resource://UpAssist.NodeTypes.Gallery/Public/styles/gallery.css'
+//      }
+//      rel = 'stylesheet'
+//    }
+//    @position = 'end'
+//  }
+//
+//  body.javascripts.gallery = Neos.Fusion:Tag {
+//    tagName = 'script'
+//    attributes {
+//      src = Neos.Fusion:ResourceUri {
+//        path = 'resource://UpAssist.NodeTypes.Gallery/Public/scripts/gallery.js'
+//      }
+//    }
+//    @position = 'end'
+//  }
+//}

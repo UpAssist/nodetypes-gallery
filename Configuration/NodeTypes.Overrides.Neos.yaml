@@ -1,0 +1,4 @@
+'Neos.Neos:Document':
+  constraints:
+    nodeTypes:
+      'UpAssist.NodeTypes.Gallery:Content.Image': false

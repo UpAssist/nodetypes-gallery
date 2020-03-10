@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file original="" product-name="UpAssist.NodeTypes.Gallery" source-language="en" datatype="plaintext">
+    <body>
+      <trans-unit id="ui.label">
+        <source>Gallery</source>
+      </trans-unit>
+      <trans-unit id="groups.gallery">
+        <source>Gallery options</source>
+      </trans-unit>
+      <trans-unit id="properties.gridItemSize">
+        <source>Grid Item size</source>
+      </trans-unit>
+      <trans-unit id="properties.gridUnit">
+        <source>Grid Unit</source>
+      </trans-unit>
+      <trans-unit id="properties.gridUnit.selectBoxEditor.values.rem">
+        <source>rem</source>
+      </trans-unit>
+      <trans-unit id="properties.gridUnit.selectBoxEditor.values.px">
+        <source>px</source>
+      </trans-unit>
+      <trans-unit id="properties.gridUnit.selectBoxEditor.values.%">
+        <source>%</source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

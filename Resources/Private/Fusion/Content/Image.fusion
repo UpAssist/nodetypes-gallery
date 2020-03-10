@@ -1,0 +1,16 @@
+//prototype(UpAssist.NodeTypes.Gallery:Content.Image) < prototype(Neos.NodeTypes:Content.Image) {
+//
+//  span = ${q(node).property('span')}
+//
+//  renderer = afx`
+//    <figure class={props.class} data-gallery-span={props.span}>
+//      <picture class={props.imageClass}>
+//        {props.sources}
+//        <img src={props.src} title={props.title} alt={props.alt}/>
+//      </picture>
+//      <figcaption @if.has={props.hasCaption && props.caption}>
+//        {props.caption}
+//      </figcaption>
+//    </figure>
+//  `
+//}

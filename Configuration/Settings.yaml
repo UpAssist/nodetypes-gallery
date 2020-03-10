@@ -1,0 +1,11 @@
+Neos:
+  Neos:
+    fusion:
+      autoInclude:
+        'UpAssist.NodeTypes.Gallery': true
+    userInterface:
+      translation:
+        autoInclude:
+          'UpAssist.NodeTypes.Gallery':
+            - 'NodeTypes/*'
+            - Main

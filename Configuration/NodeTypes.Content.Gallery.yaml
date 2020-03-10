@@ -1,0 +1,40 @@
+'UpAssist.NodeTypes.Gallery:Content.Gallery':
+  superTypes:
+    'Neos.Neos:Content': true
+    'Neos.Neos:ContentCollection': true
+  constraints:
+    nodeTypes:
+      '*': false
+      'UpAssist.NodeTypes.Gallery:Content.Image': true
+  ui:
+    label: i18n
+    group: general
+    icon: 'far fa-images'
+    inspector:
+      groups:
+        gallery:
+          label: i18n
+  properties:
+    gridItemSize:
+      type: string
+      defaultValue: 10
+      ui:
+        label: i18n
+        inspector:
+          group: gallery
+    gridUnit:
+      type: string
+      defaultValue: 'rem'
+      ui:
+        label: i18n
+        inspector:
+          group: gallery
+          editor: Neos.Neos/Inspector/Editors/SelectBoxEditor
+          editorOptions:
+            values:
+              'rem':
+                label: i18n
+              'px':
+                label: i18n
+              '%':
+                label: i18n

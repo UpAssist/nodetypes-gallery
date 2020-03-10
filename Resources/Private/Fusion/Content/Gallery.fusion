@@ -1,0 +1,10 @@
+prototype(UpAssist.NodeTypes.Gallery:Content.Gallery) < prototype(Neos.Neos:ContentComponent) {
+  size = ${q(node).property('gridItemSize')}
+  unit = ${q(node).property('gridUnit')}
+
+  renderer = afx`
+    <div data-gallery data-gallery-size={props.size} data-gallery-unit={props.unit}>
+      <Neos.Neos:ContentCollectionRenderer/>
+    </div>
+  `
+}

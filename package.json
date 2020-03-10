@@ -1,0 +1,19 @@
+{
+  "name": "UpAssist.NodeTypes.Gallery",
+  "description": "A Gallery nodetype for Neos",
+  "license": "ISC",
+  "private": true,
+  "scripts": {
+    "clean": "yarn rimraf ./Resources/Public",
+    "make": "mkdir -p ./Resources/Public",
+    "sass": "sass ./Resources/Private/Styles/Gallery.scss ./Resources/Public/styles/gallery.css",
+    "babel": "npx babel ./Resources/Private/Scripts -d ./Resources/Public/scripts",
+    "build": "yarn clean && yarn make && yarn sass && yarn babel"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "rimraf": "^3.0.2"
+  }
+}
