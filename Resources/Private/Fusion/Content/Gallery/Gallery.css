@@ -1,0 +1,18 @@
+[data-gallery] {
+  display: grid;
+  // This value is updated in js based on the editor settings
+  //grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
+  // This value is updated in js based on the editor settings
+  //grid-auto-rows: minmax(5rem, 1fr);
+  gap: 1rem;
+  grid-auto-flow: dense;
+}
+
+[data-gallery] > *,
+[data-gallery] picture,
+[data-gallery] img {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 100%;
+}

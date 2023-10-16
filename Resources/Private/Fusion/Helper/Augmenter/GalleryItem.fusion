@@ -1,0 +1,3 @@
+prototype(UpAssist.NodeTypes.Gallery:Helper.Augmenter.GalleryItem) < prototype(Neos.Fusion:Augmenter) {
+  data-gallery-span = ${q(node).property('span')}
+}

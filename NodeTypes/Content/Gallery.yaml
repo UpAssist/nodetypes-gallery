@@ -5,7 +5,7 @@
   constraints:
     nodeTypes:
       '*': false
-      'UpAssist.NodeTypes.Gallery:Content.Image': true
+      'UpAssist.NodeTypes.Gallery:Mixin.GalleryItem': true
   ui:
     label: i18n
     group: general

@@ -5,15 +5,12 @@
   "private": true,
   "scripts": {
     "clean": "yarn rimraf ./Resources/Public",
-    "make": "mkdir -p ./Resources/Public",
-    "sass": "sass ./Resources/Private/Styles/Gallery.scss ./Resources/Public/styles/gallery.css",
-    "babel": "npx babel ./Resources/Private/Scripts -d ./Resources/Public/scripts",
-    "build": "yarn clean && yarn make && yarn sass && yarn babel"
+    "make": "mkdir -p ./Resources/Public/styles",
+    "styles": "cp ./Resources/Private/Fusion/Content/Gallery/Gallery.css ./Resources/Public/styles/Gallery.css",
+    "scripts": "tsc --build",
+    "build": "yarn clean && yarn make && yarn styles && yarn scripts"
   },
   "devDependencies": {
-    "@babel/cli": "^7.8.4",
-    "@babel/core": "^7.8.7",
-    "@babel/preset-env": "^7.8.7",
     "rimraf": "^3.0.2"
   }
 }

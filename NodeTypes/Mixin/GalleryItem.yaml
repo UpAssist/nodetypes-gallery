@@ -1,0 +1,9 @@
+'UpAssist.NodeTypes.Gallery:Mixin.GalleryItem':
+  properties:
+    span:
+      type: integer
+      ui:
+        label: i18n
+        inspector:
+          group: general
+          position: 99
