@@ -11,7 +11,7 @@
     "build": "yarn clean && yarn make && yarn sass && yarn babel"
   },
   "devDependencies": {
-    "@babel/cli": "^7.8.4",
+    "@babel/cli": "^7.25.6",
     "@babel/core": "^7.8.7",
     "@babel/preset-env": "^7.8.7",
     "rimraf": "^3.0.2"
